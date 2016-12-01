@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SureToDeleteBackup" xml:space="preserve">
+    <value>确定要删除这个备份吗？</value>
+  </data>
+  <data name="NoFontSelected" xml:space="preserve">
+    <value>尚未选定系统字体或选定的字体不存在系统中 :-(</value>
+  </data>
+  <data name="Log_KillingExplorer" xml:space="preserve">
+    <value>正在结束资源管理器........</value>
+  </data>
+  <data name="UninstallSuccessfully" xml:space="preserve">
+    <value>软件设置已经被删除，现在您可以删除程序文件来完全卸载本程序了，感谢您的使用。</value>
+  </data>
+  <data name="NotGreenWareWarning" xml:space="preserve">
+    <value>这是您第一次使用。
+请注意：现在本软件已经使用注册表来保存必须的信息，因此并不是完全的绿色软件。如果您需要删除本软件，为了不在您的系统中留下不需要的信息，请先在主界面中执行『卸载』功能。</value>
+  </data>
+  <data name="LogFileHeader" xml:space="preserve">
+    <value>Windows 系统字体替换工具 v{0}</value>
+  </data>
+  <data name="Log_MoveFile" xml:space="preserve">
+    <value>　　　　　　正在移动文件.......</value>
+  </data>
+  <data name="Log_AddReplaceTask" xml:space="preserve">
+    <value>　　已添加替换任务：{0}</value>
+  </data>
+  <data name="Log_ScaningSysFonts" xml:space="preserve">
+    <value>正在扫描系统字体.......</value>
+  </data>
+  <data name="KillWarning" xml:space="preserve">
+    <value>您选择了“结束所有非系统核心进程”，为了避免您的文档丢失，请务必手动保存所有未保存的文档。建议手动确认并关闭每个文档！
+
+重要提示：安全软件（如杀毒软件、监控软件等）通常会自我保护而无法被结束，请手动关闭它们！！</value>
+  </data>
+  <data name="Log_TakeOwner" xml:space="preserve">
+    <value>　　　　正在取得所有权...{0}</value>
+  </data>
+  <data name="DeleteFont" xml:space="preserve">
+    <value>删除这个字体</value>
+  </data>
+  <data name="Log_FileCopyFailed" xml:space="preserve">
+    <value>警告：复制失败（{0}）！正在尝试回滚操作.......</value>
+  </data>
+  <data name="Log_KillingNonSystemProcesses" xml:space="preserve">
+    <value>正在强行终止所有非系统进程</value>
+  </data>
+  <data name="ScanSystemFonts" xml:space="preserve">
+    <value>扫描系统字体...</value>
+  </data>
+  <data name="Log_KillingProcess" xml:space="preserve">
+    <value>　　　　正在终止：{0} .......</value>
+  </data>
+  <data name="Log_FileCopySucc" xml:space="preserve">
+    <value>成功复制，文件已经成功替换！</value>
+  </data>
+  <data name="Log_CopyNewFile" xml:space="preserve">
+    <value>　　　　正在复制新文件......</value>
+  </data>
+  <data name="Log_DeleteTempFile" xml:space="preserve">
+    <value>　　　　　　正在删除已存在的临时文件：{0}</value>
+  </data>
+  <data name="LogTaskBegin" xml:space="preserve">
+    <value>开始处理任务</value>
+  </data>
+  <data name="WaitingParentProcessExit" xml:space="preserve">
+    <value>正在等待父进程结束，如果十秒钟后还未结束，将会强行中止</value>
+  </data>
+  <data name="Copying" xml:space="preserve">
+    <value>正在复制...</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>版本  {0}
+Copyright 2005-2010,木鱼,版权所有
+电子邮件: fishcn@foxmail.com</value>
+  </data>
+  <data name="OperationAlreadyAdded" xml:space="preserve">
+    <value>对应字体的操作已经添加过了！</value>
+  </data>
+  <data name="ConfirmToDeleteSettings" xml:space="preserve">
+    <value>确定要删除软件的设置吗？</value>
+  </data>
+  <data name="Log_KillingProcessFinished" xml:space="preserve">
+    <value>终止非系统进程完成</value>
+  </data>
+  <data name="Log_FileRollback" xml:space="preserve">
+    <value>已经恢复原始文件</value>
+  </data>
+  <data name="NoBackup" xml:space="preserve">
+    <value>没有历史备份</value>
+  </data>
+  <data name="Log_FileNotRollback" xml:space="preserve">
+    <value>警告：文件未能恢复！</value>
+  </data>
+  <data name="NoNewFileSelected" xml:space="preserve">
+    <value>还没有选择要替换为的字体文件 :-(</value>
+  </data>
+  <data name="Log_KillingFontCache" xml:space="preserve">
+    <value>正在删除字体缓存........</value>
+  </data>
+  <data name="Log_RunningDeleteTask" xml:space="preserve">
+    <value>　　正在运行删除任务：{0}</value>
+  </data>
+  <data name="Log_AddingTask" xml:space="preserve">
+    <value>正在添加任务........</value>
+  </data>
+  <data name="Log_BackupFile" xml:space="preserve">
+    <value>　　　　正在备份原始字体......</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>已就绪</value>
+  </data>
+  <data name="Log_RunningReplaceTask" xml:space="preserve">
+    <value>　　正在运行替换任务：{0}</value>
+  </data>
+  <data name="AutoSelect" xml:space="preserve">
+    <value>自动选择</value>
+  </data>
+  <data name="Log_ParentProcessExited" xml:space="preserve">
+    <value>主进程已经退出</value>
+  </data>
+  <data name="AutoReboot" xml:space="preserve">
+    <value>操作需要重启才能生效，你希望立刻重启吗？</value>
+  </data>
+  <data name="Log_FailedNote" xml:space="preserve">
+    <value>检测到错误。如果上次你曾经做过替换操作，并且并未重启系统，请重启系统后再试。</value>
+  </data>
+  <data name="Log_Deleting" xml:space="preserve">
+    <value>　　　　正在删除......</value>
+  </data>
+  <data name="Log_CreateBackupFolder" xml:space="preserve">
+    <value>正在创建备份目录.....</value>
+  </data>
+  <data name="Log_RunTaskFinished" xml:space="preserve">
+    <value>任务操作完成，成功处理字体 {0} 个，失败 {1} 个。</value>
+  </data>
+  <data name="ExplorerWillBeKilled" xml:space="preserve">
+    <value>资源管理器将会被结束，替换完成后会重新打开。</value>
+  </data>
+  <data name="Win7Detected" xml:space="preserve">
+    <value>检测到您正在运行Vista/Windows7。
+
+由于这些系统上的字体的特殊情况，建议您在进行操作前关闭所有其它程序。</value>
+  </data>
+  <data name="Log_CreateBackupFolderFinished" xml:space="preserve">
+    <value>{0}.......完成</value>
+  </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>操作已经取消：{0}</value>
+  </data>
+  <data name="ThanksForUsing" xml:space="preserve">
+    <value>欢迎使用 ^_^</value>
+  </data>
+  <data name="LogFileOperationStartTime" xml:space="preserve">
+    <value>操作开始时间：{0}</value>
+  </data>
+  <data name="FontNotInstalled" xml:space="preserve">
+    <value>字体 {0} 尚未安装有同名字体，无法添加为替换任务</value>
+  </data>
+  <data name="Log_Fail" xml:space="preserve">
+    <value>失败：{0}，跳过后续操作</value>
+  </data>
+  <data name="Log_AddingDeleteTask" xml:space="preserve">
+    <value>　　已添加删除任务：{0}</value>
+  </data>
+  <data name="Log_Successful" xml:space="preserve">
+    <value>成功</value>
+  </data>
+</root>
